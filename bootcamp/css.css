@@ -1,0 +1,81 @@
+ul
+{
+	list-style:none;
+}
+
+li
+{
+	float: right;
+	width: auto;
+	position: relative;
+	height: 30px;
+}
+
+ul li
+{
+    float: right;
+    display: inline-block;
+}
+
+  ul li a
+{
+	padding:5px 18px 0px 10px;
+	font: 15px 'Yekan';
+    font-weight:bold;
+	color:#323232;
+	max-height:33px;
+	margin-top:3px;
+    line-height:0px;
+	display: inline-block;
+}
+
+  ul li ul
+{
+	Display:none;
+    padding: 0;
+    margin:5px;
+    position: absolute;
+    transition: all 0.5s ease 0s;
+    visibility: hidden;
+    width: 150px;
+    Z-index:1;
+
+    margin-right:-10px;
+}
+
+ul li ul li
+{
+  width:150px;
+  height:auto;
+  text-align:center;
+  padding:10px;
+  background-color:#dcedc8;
+  border:1px solid #BDBDBD;
+  opacity: .85;
+}
+
+ul li ul li:hover
+{
+  width:150px
+  border:1px solid #ffc107
+  background-color:#ffc107
+}
+
+  ul li:hover ul
+{
+   display: block;
+   opacity: 1;
+   visibility: visible;
+}
+
+  ul li ul li a 
+{
+   color: #000000;
+   width: 150px;
+   text-align: center;
+   padding:15px;
+}
+#baner{
+    height: 100%;
+    width: 100%;
+}
